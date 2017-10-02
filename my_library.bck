@@ -1,0 +1,208 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +13V
+K POWER, PWR
+$ENDCMP
+#
+$CMP ADM3065
+D IC TXRX 1/1 RS485 50MBPS 8SOIC
+K RS485 RS422 transceiver half duplex
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3065E-3066E.pdf
+$ENDCMP
+#
+$CMP ADR06AUJZ
+D 200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 1.8V, SOT-23
+K LDO Voltage Regulator 200mA
+F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
+$ENDCMP
+#
+$CMP AT89LP51
+D 8-bit Flash Microcontroller with 64KB Program Memory, PLCC-68
+K CMOS MCU 8-bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3714S.pdf
+$ENDCMP
+#
+$CMP COMMON_MODE_CHOKE
+D Common-mode chokes, ring core
+K Choke
+$ENDCMP
+#
+$CMP D_Zener_SOT
+D Zener Diode, SOT
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP IEXXXX
+D IE Series DC-DC Converters
+K DC-DC
+F http://www.xppower.com/Portals/0/pdfs/SF_IE.pdf?ver=2015-08-21-095310-367
+$ENDCMP
+#
+$CMP ISE
+D ISE Series DC-DC Converters
+K DC-DC
+F http://www.xppower.com/Portals/0/pdfs/SF_ISE.pdf?ver=2016-07-25-153320-367
+$ENDCMP
+#
+$CMP ISO1050
+D ISO1050 Isolated CAN Transceiver
+K ISO1050
+F http://www.ti.com/lit/ds/symlink/iso1050.pdf
+$ENDCMP
+#
+$CMP LMZ12003
+F http://www.ti.com/lit/ds/symlink/lmz12003.pdf
+$ENDCMP
+#
+$CMP LMZ14203
+D LMZ14203 SIMPLE SWITCHER® 6V to 42V, 3A Power Module
+F http://www.ti.com/lit/ds/symlink/lmz14203.pdf
+$ENDCMP
+#
+$CMP LPC1342/3FBD48
+D 32-bit ARM Cortex-M3 microcontroller, 32kB Flash, 8k SRAM, UART, SSP, I2C, ADC 8ch
+K ARM, 32bit, CortexM3, M3, NXP, Microcontroller
+F http://www.nxp.com/documents/data_sheet/LPC1311_13_42_43.pdf
+$ENDCMP
+#
+$CMP LPC1347/3FBD48
+D 32-bit ARM Cortex-M3 microcontroller, 64kB Flash, 12k SRAM, 4k EEPROM, UART, SSP, I2C, ADC 8ch
+K ARM, 32bit, CortexM3, M3, NXP, Microcontroller
+F http://www.nxp.com/documents/data_sheet/LPC1315_16_17_45_46_47.pdf
+$ENDCMP
+#
+$CMP LPC1759FBD80
+D LPC1759, 32-bit ARM Cortex-M3 microcontroller, 512 kB Flash, 64 kB SRAM, USB 2.0 Host/Device/OTG, CAN, I2S, DAC
+K ARM, 32bit, CortexM3, M3, NXP, Microcontroller
+F http://www.nxp.com/documents/data_sheet/LPC1759_58_56_54_52_51.pdf?fasp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation&fileExt=.pdf
+$ENDCMP
+#
+$CMP LPC4078FDB100
+D LPC4078, 32-bit ARM Cortex-M4F microcontroller, 512 kB Flash, 96 kB SRAM, Ethernet, USB 2.0 Host/Device/OTG, CAN, I2S, DAC, SPIFI
+K ARM, 32bit, CortexM4, M4F, NXP, Microcontroller
+F http://www.nxp.com/documents/data_sheet/LPC408X_7X.pdf
+$ENDCMP
+#
+$CMP MC78M15BDTG
+D Positive 0.5A 35V Linear Regulator, Fixed Output 15V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Positive
+F http://www.onsemi.com/pub_link/Collateral/MC78M00-D.PDF
+$ENDCMP
+#
+$CMP MCP6H01
+D General Purpose Amplifier 1 Circuit Rail-to-Rail
+K ampop
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en551195
+$ENDCMP
+#
+$CMP Micro_SD_Card_WCD
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP N25Q032A
+D 32Mb, 3V, Multiple I/O Serial Flash Memory Features
+K Flash
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/n25q/n25q_32mb_3v_65nm.pdf
+$ENDCMP
+#
+$CMP NHD-0420DZW-AB5
+D 20 x 4 Black with Blue text OLED Display
+K Display
+F http://www.newhavendisplay.com/specs/NHD-0420DZW-AB5.pdf
+$ENDCMP
+#
+$CMP PCA9634
+D LED Driver IC 8 Output Power Switch I²C Dimming
+K PCA9634
+F http://www.nxp.com/documents/data_sheet/PCA9634.pdf
+$ENDCMP
+#
+$CMP PESD1CAN-U
+D CAN bus ESD protection diode
+K ESD
+F http://cache.nxp.com/documents/data_sheet/PESD1CAN-U.pdf?pspll=1
+$ENDCMP
+#
+$CMP PMV37EN
+D 30 V, 3.1 A N-channel Trench MOSFET
+K N-Channel MOSFET
+F http://www.nxp.com/documents/data_sheet/PMV37EN.pdf
+$ENDCMP
+#
+$CMP SN74LV1T34
+D Buffer, Shifter, 1.6 V to 5.5 V
+$ENDCMP
+#
+$CMP SN74LVC1G125
+D Buffer, Non-Inverting 1 Element 1 Bit per Element Push-Pull Output
+K SN74LVC1G125
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g126.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G126
+D Buffer, Non-Inverting 1 Element 1 Bit per Element Push-Pull Output
+K SN74LVC1G126
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g126.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G17
+D Triple Schmitt-Trigger Buffer
+K buffer
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+$ENDCMP
+#
+$CMP SN74LVC2G17
+D SCHMITT TRIGGER DUAL BUFFER
+K BUffer
+F http://www.ti.com/lit/ds/symlink/sn74lvc2g17-ep.pdf
+$ENDCMP
+#
+$CMP SN74LVC3G17
+D Triple Schmitt-Trigger Buffer
+K buffer
+F http://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf
+$ENDCMP
+#
+$CMP SW_SPST_5E
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+$ENDCMP
+#
+$CMP Switch_DPST_LED
+D Double Pole Single Throw (DPST) LED Switch
+K switch
+$ENDCMP
+#
+$CMP TC4432
+D 1.5A High-Speed 30V MOSFET Driver
+K Driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21424d.pdf
+$ENDCMP
+#
+$CMP THS4221
+D LOW-DISTORTION, HIGH-SPEED, RAIL-TO-RAIL OUTPUT OPERATIONAL AMPLIFIERS
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ths4222.pdf
+$ENDCMP
+#
+$CMP TMR1
+D Traco Power 1W DC/DC Converter
+K DC/DC
+F http://assets.tracopower.com/20161017105223/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR1-SM-SINGLE
+D Traco Power 1W DC/DC Converter
+K DC/DC
+F http://assets.tracopower.com/20161017105223/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP XTR111
+D Precision Voltage-to-Current Converter/Transmitter
+K Precision Voltage-to-Current Converter/Transmitter
+F http://www.ti.com/lit/ds/symlink/xtr111.pdf
+$ENDCMP
+#
+#End Doc Library
