@@ -132,6 +132,12 @@ K N-Channel MOSFET
 F http://www.nxp.com/documents/data_sheet/PMV37EN.pdf
 $ENDCMP
 #
+$CMP SHT3x
+D Temperature and humidity module
+K digital temperature humidity sensor
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
 $CMP SN74LV1T34
 D Buffer, Shifter, 1.6 V to 5.5 V
 $ENDCMP
