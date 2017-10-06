@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BSL308CH
-D Dual N and P Channel MOSFET, 20V Vds, 6.5A Id, 30mΩ Rds @ 4.5V Vgs, SO8L
-K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
+$CMP MPM3820
+D Non-Isolated PoL Module DC DC Converter 1 Output 2.7 ~ 6 V 2A 2.7V - 6V Input
+K REG BUCK
+F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=2888
 $ENDCMP
 #
 #End Doc Library
