@@ -1,9 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MPM3820
-D Non-Isolated PoL Module DC DC Converter 1 Output 2.7 ~ 6 V 2A 2.7V - 6V Input
-K REG BUCK
-F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=2888
+$CMP LPC1342/3FBD48
+D ARM® Cortex®-M3 LPC13xx Microcontroller IC 32-Bit 72MHz 16KB (16K x 8) FLASH 48-LQFP (7x7)
+K LPC, ARM
+F http://www.nxp.com/documents/data_sheet/LPC1311_13_42_43.pdf
+$ENDCMP
+#
+$CMP LPC1347/3FBD48
+D ARM® Cortex®-M3 LPC13xx Microcontroller IC 32-Bit 72MHz 64KB (64K x 8) FLASH 48-LQFP (7x7)
+K LPC, ARM
+F https://www.nxp.com/docs/en/data-sheet/LPC1315_16_17_45_46_47.pdf
+$ENDCMP
+#
+$CMP LPC1759FBD80
+D ARM® Cortex®-M3 LPC17xx Microcontroller IC 32-Bit 120MHz 512KB (512K x 8) FLASH 80-LQFP (12x12)
+K LPC, ARM
+F https://www.nxp.com/docs/en/data-sheet/LPC1759_58_56_54_52_51.pdf
+$ENDCMP
+#
+$CMP LPC4078FBD100
+D ARM® Cortex®-M4 LPC40xx Microcontroller IC 32-Bit 120MHz 512KB (512K x 8) FLASH 100-LQFP (14x14)
+K LPC, ARM
+F http://www.nxp.com/documents/data_sheet/LPC408X_7X.pdf
 $ENDCMP
 #
 #End Doc Library
