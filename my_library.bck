@@ -1,21 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LPC1342/3FBD48
-D ARM® Cortex®-M3 LPC13xx Microcontroller IC 32-Bit 72MHz 16KB (16K x 8) FLASH 48-LQFP (7x7)
-K LPC, ARM
-F http://www.nxp.com/documents/data_sheet/LPC1311_13_42_43.pdf
-$ENDCMP
-#
-$CMP LPC1347/3FBD48
-D ARM® Cortex®-M3 LPC13xx Microcontroller IC 32-Bit 72MHz 64KB (64K x 8) FLASH 48-LQFP (7x7)
-K LPC, ARM
-F https://www.nxp.com/docs/en/data-sheet/LPC1315_16_17_45_46_47.pdf
-$ENDCMP
-#
-$CMP LPC4078FBD100
-D ARM® Cortex®-M4 LPC40xx Microcontroller IC 32-Bit 120MHz 512KB (512K x 8) FLASH 100-LQFP (14x14)
-K LPC, ARM
-F http://www.nxp.com/documents/data_sheet/LPC408X_7X.pdf
+$CMP CDNBS08
+D TVS DIODE 5VWM 13.5VC 8SOIC
+K TVS
+F http://www.bourns.com/docs/Product-Datasheets/CDNBS08_SRDAxx_4.pdf
 $ENDCMP
 #
 #End Doc Library
