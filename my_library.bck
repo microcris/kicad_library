@@ -6,16 +6,34 @@ K I2C Serial EEPROM EUI-48 EUI-64
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002124G.pdf
 $ENDCMP
 #
+$CMP AD8426ACPZ
+D Single 40 μA Micropower Instrumentation Amplifier with Zero Crossover Distortion, MSOP-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf
+$ENDCMP
+#
 $CMP CDNBS08
 D TVS DIODE 5VWM 13.5VC 8SOIC
 K TVS
 F http://www.bourns.com/docs/Product-Datasheets/CDNBS08_SRDAxx_4.pdf
 $ENDCMP
 #
+$CMP INA2331
+D Instrumentation Amplifier 2 Circuit Rail-to-Rail 14-TSSOP
+K single instumentation amplifier
+F http://www.ti.com/lit/ds/symlink/ina2331.pdf
+$ENDCMP
+#
 $CMP MIC6315
 D Supervisor Open Drain or Open Collector 1 Channel
 K Reset
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic6315.pdf
+$ENDCMP
+#
+$CMP PCA9533
+D LED Driver IC 4 Output Linear I²C, SMBus Dimming
+K LED Driver
+F https://www.nxp.com/docs/en/data-sheet/PCA9533.pdf
 $ENDCMP
 #
 $CMP PCA9634
