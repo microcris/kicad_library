@@ -30,6 +30,12 @@ K single instumentation amplifier
 F http://www.ti.com/lit/ds/symlink/ina2331.pdf
 $ENDCMP
 #
+$CMP LPC546xxjxxxbd100
+D ARM® Cortex®-M4 LPC546xx Microcontroller IC 32-Bit 180MHz 512KB (512K x 8) FLASH 100-LQFP (14x14)
+K LPC
+F https://www.nxp.com/docs/en/data-sheet/LPC546XX.pdf
+$ENDCMP
+#
 $CMP MIC6315
 D Supervisor Open Drain or Open Collector 1 Channel
 K Reset
@@ -46,6 +52,11 @@ $CMP PCA9634
 D LED Driver IC 8 Output Power Switch I²C Dimming
 K LED Driver
 F https://www.nxp.com/docs/en/data-sheet/PCA9634.pdf
+$ENDCMP
+#
+$CMP Q_TRIAC_A2A1G
+D triode for alternating current (TRIAC)
+K triode for alternating current TRIAC
 $ENDCMP
 #
 $CMP SN74LVC1G04
