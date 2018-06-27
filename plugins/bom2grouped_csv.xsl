@@ -41,7 +41,7 @@
 
 	    <!-- main part -->
 	<xsl:template match="/export">
-	    <xsl:text>Reference; Quantity; Value</xsl:text>
+	    <xsl:text>Reference; Quantity; Value; Footprint</xsl:text>
 
 	    <!-- find all existing table head entries and list each one once -->
 	    <xsl:for-each select="components/comp/fields/field[generate-id(.) = generate-id(key('headentr',@name)[1])]">

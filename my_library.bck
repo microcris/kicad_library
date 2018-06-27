@@ -12,6 +12,18 @@ K single instumentation amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf
 $ENDCMP
 #
+$CMP BSC016N06NS
+D 100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 1,6mOhm Ron, Qg (typ) 81nC, PG-TDSON-8
+K OptiMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/BSC016N06NS_rev2.0.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043353fdc160135532b353c483c
+$ENDCMP
+#
+$CMP BSC097N06NS
+D 46A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 9.7mOhm Ron, Qg (typ) 12.0nC, PG-TDSON-8
+K OptiMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-BSC097N06NS-DS-v02_00-en.pdf?fileId=db3a304342371bb001424cdd69b87155
+$ENDCMP
+#
 $CMP CC3-xxxxxR-E
 D Isolated Module DC DC Converter 2 Output 12 ~ 15 V -12 ~ -15 V 125mA, 125mA 4.5V - 9V Input
 K DCDC
@@ -30,10 +42,34 @@ K single instumentation amplifier
 F http://www.ti.com/lit/ds/symlink/ina2331.pdf
 $ENDCMP
 #
+$CMP LMZ23605
+D LMZ2360X SIMPLE SWITCHER® Power Module With 36-V Maximum Input Voltage
+K SIMPLE SWITCHER, Power Module
+F http://www.ti.com/lit/ds/symlink/lmz23605.pdf
+$ENDCMP
+#
+$CMP LMZM3360X
+D LMZM3360X 4V to 36V, Step-Down DC/DC Power Module in Compact 7x9x4mm QFN Package
+K DC/DC Power Module
+F http://www.ti.com/lit/gpn/lmzm33603
+$ENDCMP
+#
 $CMP LPC546xxjxxxbd100
 D ARM® Cortex®-M4 LPC546xx Microcontroller IC 32-Bit 180MHz 512KB (512K x 8) FLASH 100-LQFP (14x14)
 K LPC
 F https://www.nxp.com/docs/en/data-sheet/LPC546XX.pdf
+$ENDCMP
+#
+$CMP LTC3895
+D LTC3895 150V Low IQ, Synchronous Step-Down DC/DC Controller
+K DC/DC, Step-Down
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3895fa.pdf
+$ENDCMP
+#
+$CMP LTC3896
+D LTC3896 150V Low IQ, Synchronous Inverting DC/DC Controller
+K DC/DC, Inverting
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3896f.pdf?domain=www.linear.com
 $ENDCMP
 #
 $CMP MIC6315
@@ -81,6 +117,11 @@ $CMP W25Q
 D FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O 133MHz
 K Flash Memory
 F http://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf
+$ENDCMP
+#
+$CMP TestPoint
+D Test point for testing and measurement
+K TP test point
 $ENDCMP
 #
 #End Doc Library
