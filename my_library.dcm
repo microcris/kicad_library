@@ -12,6 +12,11 @@ K single instumentation amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf
 $ENDCMP
 #
+$CMP ARJE-0034
+D CONN MAGJACK 1PORT 100 BASE-T
+K RJ45 LAN
+$ENDCMP
+#
 $CMP BSC016N06NS
 D 100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 1,6mOhm Ron, Qg (typ) 81nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
@@ -42,7 +47,7 @@ K single instumentation amplifier
 F http://www.ti.com/lit/ds/symlink/ina2331.pdf
 $ENDCMP
 #
-$CMP LMZ23605
+$CMP LMZ2360X
 D LMZ2360X SIMPLE SWITCHER® Power Module With 36-V Maximum Input Voltage
 K SIMPLE SWITCHER, Power Module
 F http://www.ti.com/lit/ds/symlink/lmz23605.pdf
@@ -78,6 +83,17 @@ K Reset
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic6315.pdf
 $ENDCMP
 #
+$CMP NCV4266
+D 150 mA Low-Dropout Voltage Regulator with Enable
+K LDO, Regulator
+F http://www.onsemi.com/pub/Collateral/NCV4266-D.PDF
+$ENDCMP
+#
+$CMP NXE1
+D DC DC CONVERTER 1W
+K DC-DC Power Supply
+$ENDCMP
+#
 $CMP PCA9533
 D LED Driver IC 4 Output Linear I²C, SMBus Dimming
 K LED Driver
@@ -90,9 +106,26 @@ K LED Driver
 F https://www.nxp.com/docs/en/data-sheet/PCA9634.pdf
 $ENDCMP
 #
+$CMP PESD
+D Low capacitance bidirectional ESD protection diodes
+K ESD D PES
+$ENDCMP
+#
+$CMP PLC_Stamp_micro_2
+D PLC Stamp micro 2
+K HomePlug Green PHY powerline module
+F https://www.i2se.com/product/plc-stamp-micro-2/
+$ENDCMP
+#
 $CMP Q_TRIAC_A2A1G
 D triode for alternating current (TRIAC)
 K triode for alternating current TRIAC
+$ENDCMP
+#
+$CMP RT9068
+D 60V, 30μA IQ, 50mA Output Current, Low Dropout Voltage Linear Regulator
+K LDO, Regulator, Linear
+F https://www.richtek.com/assets/product_file/RT9068/DS9068-06.pdf
 $ENDCMP
 #
 $CMP SN74LVC1G04
@@ -101,10 +134,22 @@ K inv
 F http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G06
+D Buffer, Inverting 1 Element 1 Bit per Element Open Drain Output
+K buffer NOT
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf
+$ENDCMP
+#
 $CMP SN74LVC1G07
-D Dual Buffer and Driver With Open-Drain Outputs
+D Single Buffer and Driver With Open-Drain Output
 K buffer
 F http://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D Single 2-Input Positive-AND Gate
+K CMOS and2
+F http://www.ti.com/lit/gpn/sn74LS08
 $ENDCMP
 #
 $CMP SN74LVC2G07
@@ -113,9 +158,40 @@ K buffer
 F http://www.ti.com/lit/ds/symlink/sn74lvc2g07.pdf
 $ENDCMP
 #
-$CMP TestPoint
+$CMP SP485
+D Enhanced Low Power Half-Duplex RS422, RS485
+K RS485
+$ENDCMP
+#
+$CMP Si8620NB
+D General Purpose Digital Isolator 3750Vrms 2 Channel 150Mbps 35kV/µs CMTI 8-SOIC (0.154", 3.90mm Width)
+K isolator
+$ENDCMP
+#
+$CMP Si8621NB
+D General Purpose Digital Isolator 3750Vrms 2 Channel 150Mbps 35kV/µs CMTI 8-SOIC (0.154", 3.90mm Width)
+$ENDCMP
+#
+$CMP Si8621WB
+D General Purpose Digital Isolator 3750Vrms 2 Channel 150Mbps 35kV/µs
+K isolator
+$ENDCMP
+#
+$CMP Si8631BC-B-IS
+D Low-Power 3 Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16W
+K 3Ch 2In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP TP_5019
 D Test point for signal testing and measurement
 K TP Test Point
+$ENDCMP
+#
+$CMP Transformer_I2PLCTR-2
+D Transformer, single primary, dual secondary
+K transformer coil magnet
+F ~
 $ENDCMP
 #
 $CMP W25Q
