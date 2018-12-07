@@ -1,4 +1,4 @@
-(module CK_J (layer F.Cu) (tedit 58B6DED2)
+(module CK_J (layer F.Cu) (tedit 5BD0A153)
   (tags SPDT)
   (attr smd)
   (fp_text reference REF** (at -5.55 0 90) (layer F.SilkS)
@@ -18,7 +18,7 @@
   (pad 1 smd rect (at -2.5 1.2) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 -1.2) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2.5 1.2) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
-  (model /home/cristiano/Documents/Kicad_library/my_library.3dshapes/JS102011JCQN.stp
+  (model /home/cris/Documents/Kicad_library/my_library.3dshapes/JS102011JCQN.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

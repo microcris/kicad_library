@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V3A
+D Power flag, +3.3V Analog
+K power-flag
+$ENDCMP
+#
+$CMP +3V3REF
+D Power flag, +3.3V Reference
+K power-flag
+$ENDCMP
+#
+$CMP +3V3USB
+D Power flag, +3.3V USB
+K power-flag
+$ENDCMP
+#
 $CMP 24AA025
 D I2C Serial EEPROM, 2kb
 K I2C Serial EEPROM EUI-48 EUI-64
@@ -10,6 +25,22 @@ $CMP AD8426ACPZ
 D Single 40 μA Micropower Instrumentation Amplifier with Zero Crossover Distortion, MSOP-8
 K single instumentation amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf
+$ENDCMP
+#
+$CMP AD8615
+D Precision, 20 MHz, CMOS, Rail-to-Rail Input/Output Operational Amplifiers
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf
+$ENDCMP
+#
+$CMP AP2204
+D WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
+K power supply regulator
+$ENDCMP
+#
+$CMP APXW005
+D 9-36V ProLynxTM 5A: Non-Isolated DC-DC Power Module
+K DC-DC Power Supply
 $ENDCMP
 #
 $CMP ARJE-0034
@@ -41,10 +72,32 @@ K TVS
 F http://www.bourns.com/docs/Product-Datasheets/CDNBS08_SRDAxx_4.pdf
 $ENDCMP
 #
+$CMP COMMON_MODE_CHOKE_WE_UCF
+D 1.5mH @ 10kHz 2 Line Common Mode Choke Surface Mount 1.5A DCR 120 mOhm
+K CMC CHOKE
+$ENDCMP
+#
+$CMP DZARRAY
+D Double Zener Diode, Common cathode, 300mW, SOT-23
+K dual zener diode
+$ENDCMP
+#
 $CMP INA2331
 D Instrumentation Amplifier 2 Circuit Rail-to-Rail 14-TSSOP
 K single instumentation amplifier
 F http://www.ti.com/lit/ds/symlink/ina2331.pdf
+$ENDCMP
+#
+$CMP LM8261
+D Single RRIO High Output Current & Unlimited Cap Load Op Amp
+K operational amplifier opamp
+F http://www.ti.com/lit/ds/symlink/lm8261.pdf
+$ENDCMP
+#
+$CMP LM8272
+D LM8272 Dual RRIO, High Output Current & Unlimited Cap Load
+K operational amplifier opamp
+F http://www.ti.com/lit/ds/symlink/lm8272.pdf
 $ENDCMP
 #
 $CMP LMZ2360X
@@ -65,6 +118,12 @@ K LPC
 F https://www.nxp.com/docs/en/data-sheet/LPC546XX.pdf
 $ENDCMP
 #
+$CMP LT6703
+D Single-input comparator, internal 0.4V reference, Active-Low Open-Colector output, TSOT-23-5 package
+K single comparator with reference
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
 $CMP LTC3895
 D LTC3895 150V Low IQ, Synchronous Step-Down DC/DC Controller
 K DC/DC, Step-Down
@@ -81,6 +140,11 @@ $CMP MIC6315
 D Supervisor Open Drain or Open Collector 1 Channel
 K Reset
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic6315.pdf
+$ENDCMP
+#
+$CMP MTC1
+D Isolated 1W SM 2:1 Input Single Output DC-DC Converters
+K DC-DC Power Supply
 $ENDCMP
 #
 $CMP NCV4266
@@ -117,6 +181,11 @@ K HomePlug Green PHY powerline module
 F https://www.i2se.com/product/plc-stamp-micro-2/
 $ENDCMP
 #
+$CMP PRTR5V0U2X
+D Ultra low capacitance double rail-to-rail ESD protection diode
+K TVS ESD
+$ENDCMP
+#
 $CMP Q_TRIAC_A2A1G
 D triode for alternating current (TRIAC)
 K triode for alternating current TRIAC
@@ -126,6 +195,12 @@ $CMP RT9068
 D 60V, 30μA IQ, 50mA Output Current, Low Dropout Voltage Linear Regulator
 K LDO, Regulator, Linear
 F https://www.richtek.com/assets/product_file/RT9068/DS9068-06.pdf
+$ENDCMP
+#
+$CMP RT9069
+D 36V, 2uA IQ, 200mA Low Dropout Voltage Linear Regulator
+K LDO, Regulator, Linear
+F https://www.richtek.com/assets/product_file/RT9069/DS9069-07.pdf
 $ENDCMP
 #
 $CMP SN74LVC1G04
@@ -149,13 +224,25 @@ $ENDCMP
 $CMP SN74LVC1G08
 D Single 2-Input Positive-AND Gate
 K CMOS and2
-F http://www.ti.com/lit/gpn/sn74LS08
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
 $ENDCMP
 #
 $CMP SN74LVC2G07
 D Dual Buffer and Driver With Open-Drain Outputs
 K buffer
 F http://www.ti.com/lit/ds/symlink/sn74lvc2g07.pdf
+$ENDCMP
+#
+$CMP SN74LVC2G17
+D Dual Schmitt-Trigger Buffer
+K buffer
+F http://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf
+$ENDCMP
+#
+$CMP SN74LVC3G17
+D Triple Schmitt-Trigger Buffer
+K buffer
+F http://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf
 $ENDCMP
 #
 $CMP SP485
@@ -183,9 +270,16 @@ K 3Ch 2In 1Out Quad Digital Isolator 150Mbps
 F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
 $ENDCMP
 #
+$CMP TL331
+D TL331 Single Differential Comparator
+K single comparator
+F http://www.ti.com/lit/ds/symlink/tl331.pdf
+$ENDCMP
+#
 $CMP TP_5019
 D Test point for signal testing and measurement
 K TP Test Point
+F http://www.keyelco.com/product-pdf.cfm?p=1357
 $ENDCMP
 #
 $CMP Transformer_I2PLCTR-2

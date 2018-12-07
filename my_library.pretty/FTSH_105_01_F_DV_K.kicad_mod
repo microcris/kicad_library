@@ -1,4 +1,4 @@
-(module FTSH_105_01_F_DV_K (layer F.Cu) (tedit 58B9A2D9)
+(module FTSH_105_01_F_DV_K (layer F.Cu) (tedit 5C019021)
   (descr http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf)
   (tags FTSH)
   (attr smd)
@@ -47,7 +47,7 @@
   (pad 7 smd rect (at 1.27 2.035) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 2.54 -2.035) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 2.54 2.035) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask))
-  (model /home/cristiano/Documents/Kicad_library/my_library.3dshapes/FTSH-105-01-F-DV-K.stp
+  (model /home/cris/Documents/Kicad_library/my_library.3dshapes/FTSH-105-01-F-DV-K.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
